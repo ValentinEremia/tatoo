@@ -212,10 +212,10 @@ export const footerData = {
   links: {
     title: 'Useful links',
     items: [
-      { href: '/', name: 'About me' },
-      { href: '/', name: 'My gallery' },
-      { href: '/', name: 'My services' },
-      { href: '/', name: 'Contact me' },
+      { href: '/tatoo', name: 'About me' },
+      { href: '/tatoo', name: 'My gallery' },
+      { href: '/tatoo', name: 'My services' },
+      { href: '/tatoo', name: 'Contact me' },
     ],
   },
   program: {
