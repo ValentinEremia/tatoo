@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/tatoo/static/css/main.dbafa56c.css",
-    "main.js": "/tatoo/static/js/main.72843fff.js",
+    "main.js": "/tatoo/static/js/main.d1b8a710.js",
     "static/media/bg.jpg": "/tatoo/static/media/bg.68c3d0ba0d3b84097d3e.jpg",
     "static/media/bg.png": "/tatoo/static/media/bg.68f5f1a639f5898db5b5.png",
     "static/media/8.png": "/tatoo/static/media/8.dc47892fcafd4c2f6dc2.png",
@@ -18,10 +18,10 @@
     "static/media/quote.svg": "/tatoo/static/media/quote.b6c84129796166895505ca1a3ba52a66.svg",
     "index.html": "/tatoo/index.html",
     "main.dbafa56c.css.map": "/tatoo/static/css/main.dbafa56c.css.map",
-    "main.72843fff.js.map": "/tatoo/static/js/main.72843fff.js.map"
+    "main.d1b8a710.js.map": "/tatoo/static/js/main.d1b8a710.js.map"
   },
   "entrypoints": [
     "static/css/main.dbafa56c.css",
-    "static/js/main.72843fff.js"
+    "static/js/main.d1b8a710.js"
   ]
 }
