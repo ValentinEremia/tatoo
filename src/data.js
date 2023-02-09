@@ -28,21 +28,21 @@ export const headerData = {
 
 export const navData = {
   items: [
-    { href: '/', name: 'Home' },
-    { href: '/', name: 'About' },
-    { href: '/', name: 'Gallery' },
-    { href: '/', name: 'Interview' },
-    { href: '/', name: 'Articles' },
-    { href: '/', name: 'Contact' },
+    { href: '/tatoo', name: 'Home' },
+    { href: '/tatoo', name: 'About' },
+    { href: '/tatoo', name: 'Gallery' },
+    { href: '/tatoo', name: 'Interview' },
+    { href: '/tatoo', name: 'Articles' },
+    { href: '/tatoo', name: 'Contact' },
   ],
 };
 
 export const socialData = [
-  { href: '/', icon: <GrFacebookOption /> },
-  { href: '/', icon: <IoLogoInstagram /> },
-  { href: '/', icon: <IoLogoPinterest /> },
-  { href: '/', icon: <IoLogoTwitter /> },
-  { href: '/', icon: <IoLogoYoutube /> },
+  { href: '/tatoo', icon: <GrFacebookOption /> },
+  { href: '/tatoo', icon: <IoLogoInstagram /> },
+  { href: '/tatoo', icon: <IoLogoPinterest /> },
+  { href: '/tatoo', icon: <IoLogoTwitter /> },
+  { href: '/tatoo', icon: <IoLogoYoutube /> },
 ];
 
 export const heroData = {
