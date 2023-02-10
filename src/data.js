@@ -28,8 +28,8 @@ export const headerData = {
 
 export const navData = {
   items: [
-    { href: '/tatoo#top', name: 'Home' },
-    { href: '/tatoo#about', name: 'About' },
+    { href: '#top', name: 'Home' },
+    { href: '#about', name: 'About' },
     { href: '/tatoo#gallery', name: 'Gallery' },
     { href: '/tatoo#testimonials', name: 'Testimonials' },
     { href: '/tatoo#interview', name: 'Interview' },
