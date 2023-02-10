@@ -30,10 +30,10 @@ export const navData = {
   items: [
     { href: '#top', name: 'Home' },
     { href: '#about', name: 'About' },
-    { href: '/tatoo#gallery', name: 'Gallery' },
-    { href: '/tatoo#testimonials', name: 'Testimonials' },
-    { href: '/tatoo#interview', name: 'Interview' },
-    { href: '/tatoo#contact', name: 'Contact' },
+    { href: '#gallery', name: 'Gallery' },
+    { href: '#testimonials', name: 'Testimonials' },
+    { href: '#interview', name: 'Interview' },
+    { href: '#contact', name: 'Contact' },
   ],
 };
 
@@ -213,9 +213,9 @@ export const footerData = {
     title: 'Useful links',
     items: [
       { href: '#about', name: 'About me' },
-      { href: '/tatoo', name: 'My gallery' },
-      { href: '/tatoo', name: 'My services' },
-      { href: '/tatoo', name: 'Contact me' },
+      { href: '#gallery', name: 'My gallery' },
+      { href: '#', name: 'My services' },
+      { href: '#contact', name: 'Contact me' },
     ],
   },
   program: {
