@@ -67,7 +67,7 @@ const Skills = () => {
       whileInView={'show'}
       viewport={{ once: false, amount: 0.1 }}
       ref={ref}
-      className='section font-primary'
+      className='section font-primary '
     >
       <div className='container mx-auto'>
         <div className='flex flex-col xl:flex-row justify-between items-center gap-y-12'>

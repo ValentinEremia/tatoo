@@ -26,12 +26,13 @@ export const Testimonial = () => {
             // destructure slide
             const { quoteImg, message, name, occupation } = slide;
             return (
-              <SwiperSlide key={index}>
-                <div className='max-w-[1200px] mx-auto flex flex-col items-center lg:flex-row lg:items-start gap-x-[38px]'>
+              
+                <SwiperSlide key={index}>
+                <div  className='max-w-[1200px] mx-auto flex flex-col items-center lg:flex-row lg:items-start gap-x-[38px] ' >
                   <div className='w-[154px] h-[109px] mb-5'>
                     <img src={quoteImg} alt='' />
                   </div>
-                  <div className='flex-1 lg:mt-[54px]'>
+                  <div className='flex-1 lg:mt-[54px] hover:cursor-grab '>
                     <div className='text-2xl lg:text-[36px] leading-normal mb-6 lg:mb-12'>
                       {message}
                     </div>
@@ -43,6 +44,8 @@ export const Testimonial = () => {
                   </div>
                 </div>
               </SwiperSlide>
+              
+              
             );
           })}
         </Swiper>

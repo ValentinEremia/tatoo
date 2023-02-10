@@ -21,7 +21,7 @@ const GallerySection = () => {
   // destructure gallery data
   const { title, btnText, btnIcon, images } = galleryData;
   return (
-    <section className='bg-[#F9F9F9] section relative mt-[40px] lg:mt-0'>
+    <section   className='bg-[#F9F9F9] section relative mt-[40px] lg:mt-0'>
       <div className='container mx-auto'>
         <motion.h2
           variants={fadeIn('up')}
@@ -41,7 +41,7 @@ const GallerySection = () => {
         viewport={{ once: false, amount: 0.2 }}
         className='mb-8 lg:mb-20'
       >
-        <PhotoAlbum
+        <PhotoAlbum  
           layout='rows'
           photos={images}
           onClick={(event, photo, index) => setIndex(index)}

@@ -21,12 +21,13 @@ const Hero = () => {
   const { title, subtitle, btnText, btnIcon } = heroData;
 
   return (
-    <section className="bg-hero bg-cover bg-center min-h-[40vh] lg:h-[948px] bg-no-repeat relative mt-[120px] lg:mt-[150px]">
+    <section   className="bg-hero bg-cover bg-center min-h-[40vh] lg:h-[948px] bg-no-repeat relative  ">
+    {/* <section   className="bg-hero bg-cover bg-center min-h-[40vh] lg:h-[948px] bg-no-repeat relative mt-[110px] lg:mt-[150px]"> */}
       <motion.div
         variants={container}
         initial="hidden"
         whileInView={"show"}
-        className="container mx-auto min-h-[40vh] lg:h-full flex items-center justify-center xl:justify-end"
+        className="container mx-auto min-h-[50vh] lg:h-full flex items-center justify-center xl:justify-end"
       >
         {/* Text & Btn */}
         <div className="text-white text-center lg:text-left lg:max-w-[640px]">
@@ -38,10 +39,12 @@ const Hero = () => {
 
           {/* Btn */}
           <motion.div variants={fadeIn('down')}>
+          <a href="#about">
           <button className="btn btn-sm lg:btn-lg btn-outline mx-auto lg:mx-0">
             {btnText}
             <div className=" text-xl ">{btnIcon}</div>
           </button>
+          </a>
           </motion.div>
         </div>
 

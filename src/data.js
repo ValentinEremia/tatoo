@@ -28,12 +28,12 @@ export const headerData = {
 
 export const navData = {
   items: [
-    { href: '/tatoo', name: 'Home' },
-    { href: '/tatoo', name: 'About' },
-    { href: '/tatoo', name: 'Gallery' },
-    { href: '/tatoo', name: 'Interview' },
-    { href: '/tatoo', name: 'Articles' },
-    { href: '/tatoo', name: 'Contact' },
+    { href: '/tatoo#top', name: 'Home' },
+    { href: '/tatoo#about', name: 'About' },
+    { href: '/tatoo#gallery', name: 'Gallery' },
+    { href: '/tatoo#testimonials', name: 'Testimonials' },
+    { href: '/tatoo#interview', name: 'Interview' },
+    { href: '/tatoo#contact', name: 'Contact' },
   ],
 };
 
@@ -212,7 +212,7 @@ export const footerData = {
   links: {
     title: 'Useful links',
     items: [
-      { href: '/tatoo', name: 'About me' },
+      { href: '#about', name: 'About me' },
       { href: '/tatoo', name: 'My gallery' },
       { href: '/tatoo', name: 'My services' },
       { href: '/tatoo', name: 'Contact me' },
